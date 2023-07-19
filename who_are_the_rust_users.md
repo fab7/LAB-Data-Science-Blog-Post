@@ -14,25 +14,19 @@ With that goal in mind, I used the *2023 Stack Overflow Annual Survey* dataset t
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
 - *In what other languages do the Rust users plan to work in 2024?*
 
-## The Dataset
-
-[2023 Stack Overflow Annual Survey](https://survey.stackoverflow.co/2023/)
+## What the survey results already tell us about Rust
 
 The Stack Overflow survey is conducted every year among tens of thousands of developers who share how they learn new and level up, 
 which tools they’re using, how much they earn and how they are looking ahead to the future.
 
-The last survey was conducted in May 2023 among 90,000 developers and the results can be downloaded from:
-- https://insights.stackoverflow.com/survey  
-
-This kind of survey provides a wealth of information about the software developer community, the tools and the 
+The last survey was conducted in May 2023 among 90,000 developers and it provides a wealth of information about the software developer community, the tools and the 
 programming environments in use today.
-With respect to the Rust language, you will find the following information:
-- the number of users and its [popularity](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages) compared to other technologies  
-- the user satisfaction, apprehension and [desire to use](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
-- the [pay rating](https://survey.stackoverflow.co/2023/#section-top-paying-technologies-top-paying-technologies) among other languages
-- and a nice [mapping](https://survey.stackoverflow.co/2023/#section-worked-with-vs-want-to-work-with-programming-scripting-and-markup-languages) of the languages that users are interested in versus the ones they are already using. 
 
-
+With respect to the Rust language, you will learn that:
+- [**13.05%**](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages) of all respondents have done  extensive development work in Rust over the past year.
+- Rust is the most admired language with more than [**80%**](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages) of developers saying that they want to use it again next year.
+- the relatively good [**pay rating**](https://survey.stackoverflow.co/2023/#section-top-paying-technologies-top-paying-technologies) of Rust among other languages.
+- and a nice [**mapping**](https://survey.stackoverflow.co/2023/#section-worked-with-vs-want-to-work-with-programming-scripting-and-markup-languages) of the languages that users are interested in versus the ones they are already using. 
 
 
 

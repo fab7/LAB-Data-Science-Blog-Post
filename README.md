@@ -1,4 +1,4 @@
-# README - Who Are The Rust Users?
+# Who Are The Rust Users?
 
 <p align="center">
   <img src="images/Rust_Blog_Header_Image.png" width="768" height="506"/>
@@ -16,26 +16,31 @@ In summary, the four questions I decided to probe within the dataset are:
 - *What are the job types of the Rust users?*
 - *What are the best Rust paying jobs?*
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
-- *In what other languages do the Rust users plan to work in 2024?
+- *In what other languages do the Rust users plan to work in 2024?*
 
 
 ## Table of contents
 
 - [How To](#how-to)
+    - [Clone this repository](#clone-this-repository)
+    - [Retrieve the dataset ](#retrieve-the-dataset)
+    - [Create a virtual environemnt](#create-and-activate-a-virtual-environemnt))
+    - [Install the Python packages](#install-the-required-python-packages)
 - [Files and Directories](#files-and-directories)
 - [Questions and Findings](#questions-and-findings)
 
 
 ## How To
 
-### Clone this repository to your local system by running
+### Clone this repository
 
 ``` bash
 $ git clone git@github.com:fab7/LAB-Data-Science-Blog-Post.git
 $ cd LAB-Data-Science-Blog-Post  
 ```
 
-### Retrieve the dataset of the 2023 Stack Overflow Survey 
+### Retrieve the dataset
+
 ```bash
 $ mkdir dataset
 $ cd dataset
@@ -51,7 +56,7 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 ```
 
-### Install the Python packages listed in a requirements.txt file
+### Install the required Python packages
 #### Info/Warning: Make sure you are in your virtual envirnonment!
 
 ```bash
@@ -59,6 +64,26 @@ $ source .venv/bin/activate
 ```
 
 ## Files and Directories
+
+### ./dataset
+
+This directory will contain the dataset and the schema of the 2023 survey once you downloaded and decompressed it with the above `curl` and `unzip` commandands.
+```
+    ./dataset
+        README_2023.txt
+        so_survey_2023.pdf
+        survey_results_public.csv
+        survey_results_schema.csv
+```
+Note: Surveys from previous years can be found at: https://insights.stackoverflow.com/survey 
+
+### ./notebook
+
+Contains the the Python notebook. 
+```
+    ./notebook
+        who_are_the_rust_users.ipynb
+```
 
 
 ## Questions and Findings
