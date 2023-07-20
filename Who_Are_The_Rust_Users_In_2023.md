@@ -1,4 +1,4 @@
-# Who Are The 2023 Rust Users?
+# Who Are The Rust Users in 2023?
 
 ![Alt text](./images/Rust_Blog_Header_Image.png)<p align="center">
 
