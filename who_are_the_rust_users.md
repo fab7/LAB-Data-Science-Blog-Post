@@ -1,4 +1,4 @@
-# BLOG - Who Are The Rust Users?
+# Who Are The 2023 Rust Users?
 
 ![Alt text](./images/Rust_Blog_Header_Image.png)<p align="center">
 
@@ -14,7 +14,7 @@ With that goal in mind, I used the *2023 Stack Overflow Annual Survey* dataset t
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
 - *In what other languages do the Rust users plan to work in 2024?*
 
-## What the survey results already tell us about Rust
+## What the Stack Overflow survey results already tells us about Rust
 
 The Stack Overflow survey is conducted every year among tens of thousands of developers who share how they learn new and level up, 
 which tools they’re using, how much they earn and how they are looking ahead to the future.
@@ -27,6 +27,37 @@ With respect to the Rust language, you will learn that:
 - Rust is the most admired language with more than [**80%**](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages) of developers saying that they want to use it again next year.
 - the relatively good [**pay rating**](https://survey.stackoverflow.co/2023/#section-top-paying-technologies-top-paying-technologies) of Rust among other languages.
 - and a nice [**mapping**](https://survey.stackoverflow.co/2023/#section-worked-with-vs-want-to-work-with-programming-scripting-and-markup-languages) of the languages that users are interested in versus the ones they are already using. 
+
+## Q1 - What are the job types of the Rust users?
+The Stack Overflow survey collects responses from people belonging to various branches such as, developer by profession, occasional coder, learner, hobbyist, and so on.
+
+![Alt text](./images/The_different_Developer_Branches_of_the_Survey.jpg)<p align="center">
+ 
+However, for this study, we are only interrested in the the group of **professional developers** and we refine the statistical population to .
+
+will solely focus on the population of 'developers by profession' who are 67237 and represent 75.4% of the respondents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
