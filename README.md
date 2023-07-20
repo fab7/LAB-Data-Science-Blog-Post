@@ -10,9 +10,9 @@ I wanted to know more about this emerging language but I was under a heavy agend
 
 I was also enrolled in an inter-skills course in data engineering and data science, and this is what was keeping me so busy. However, by a happy coincidence, the first introduction project requested the students to create a Jupyter notebook to practise data wrangling and data modeling. The choice of  the dataset was free but the results had to be shared via a blog post.
 
-Bingo, I had just found a way to kill two birds at once and decided to use the data from [*Stackoverflow’s 2023 Annual Survey*](https://survey.stackoverflow.co/2023/) to learn more about this language.
+Bingo, I had just found a way to kill two birds with one stone and decided to use the data from [*Stackoverflow’s 2023 Annual Survey*](https://survey.stackoverflow.co/2023/) to learn more about this language.
 
-In summary, I decided to probe the following four questions within the dataset are:
+In summary, I decided to probe the following four questions within the dataset:
 - *What are the job types of the Rust users?*
 - *What are the best Rust paying jobs?*
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
