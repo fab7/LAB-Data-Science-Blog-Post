@@ -28,6 +28,7 @@ In summary, I decided to probe the following four questions within the dataset a
     - [Install the Python packages](#install-the-required-python-packages)
 - [Files and Directories](#files-and-directories)
 - [Questions and Findings](#questions-and-findings)
+- [Link to the Blog Post](#link-to-the-blog-post)
 
 
 ## How To
@@ -151,5 +152,9 @@ This is confirmed by our findings with **85%** of the active professionnal devel
 </p>
 
 
+## Link To The Blog Post
+
+You can read a blog post version of this analysis --> [here](
+Who_Are_The_Rust_Users_In_2023.md).
 
 
