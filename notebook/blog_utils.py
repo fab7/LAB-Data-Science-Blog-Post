@@ -16,7 +16,7 @@ def pie_chart(df, df_title, fig_save=False):
       df_title (string): The title of the pie chart
       fig_save (boolean): Will keep a copy of the figure in the './images/' directory
     """
-    (df.nlargest(10)/df.sum()).plot(kind='pie', autopct='%1.1f%%', ylabel='', legend=None);
+    (df.nlargest(7)/df.sum()).plot(kind='pie', autopct='%1.1f%%', ylabel='', legend=None);
     plt.title(df_title);
     if fig_save:
         plt.savefig('./images/' + df_title.replace(" ", "_") +'.jpg')

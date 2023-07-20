@@ -24,7 +24,7 @@ In summary, I decided to probe the following four questions within the dataset a
 - [How To](#how-to)
     - [Clone this repository](#clone-this-repository)
     - [Retrieve the dataset ](#retrieve-the-dataset)
-    - [Create a virtual environemnt](#create-and-activate-a-virtual-environemnt))
+    - [Create a virtual environemnt](#create-and-activate-a-virtual-environemnt)
     - [Install the Python packages](#install-the-required-python-packages)
 - [Files and Directories](#files-and-directories)
 - [Questions and Findings](#questions-and-findings)
@@ -88,22 +88,23 @@ Note: Surveys from previous years can be found at: https://insights.stackoverflo
 
 ### ./notebook
 
-Contains the the Python notebook. 
+Contains the the Python notebook and helper module for plotting the pie and bar charts of the Blog Post. 
 ```
     ./notebook
         who_are_the_rust_users.ipynb
+        blog_utils.py
 ```
 
 
 ## Questions and Findings
 
 ### Foreword
-Because we were specifically interrested by the status of the professional community of Rust users, we restricted the statistical population of the study to **active professionnal developers** , thus excluding publics such as students, hobbyists, learners and retirees.
+Because we were specifically interrested by the status of the professional community of Rust users, we restricted the statistical population of the study to **active professional developers** , thus excluding publics such as students, hobbyists, learners and retirees.
 
 We further defined the following three groups of users:
 - a Rust **user** is a respondent who has done extensive development work in Rust over the past year.
 - a Rust **admirer** is a respondent who wants to work in Rust over the next year.
-- a Rust **lover** is a respondent who is both a Rust **lover** and a Rust **admirer**. 
+- a Rust **lover** is a Rust user who wants to continue working in Rust over the next year.  
 
 ### Q1 - What are the job types of the Rust lovers?
   
@@ -113,6 +114,7 @@ This seems to be confirmed by the distribution of the job types among the Rust l
 
 <p align="center">
   <img src="./images/What_are_the_job_types_of_the_Rust_lovers.png" />
+</p>
 
 ### Q2 - What are the best Rust paying jobs?
 
@@ -120,7 +122,8 @@ The median salary of the Rust lovers is **$88.015** and the best paying jobs are
 
 <p align="center">
   <img src="./images/What_are_the_best_paying_Rust_types_of_jobs.png" />
-  
+</p>
+
 ### Q3 - What languages do Rust admirers develop in 2023?
 
 The first third (**29.1%**) of the **admirers** who want to work in Rust over the next year, are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%**) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
@@ -133,11 +136,11 @@ The first third (**29.1%**) of the **admirers** who want to work in Rust over th
   <img src="./images/What_languages_do_Rust_admirers_develop_most_in_2023.png" />
 </p>
 
-### Q4 - What languages do Rust users want to develop in 2024?
+### Q4 - What languages dao Rust users want to develop in 2024?
 
 One of the results of the *Stack Overflow* survey already showed that Rust was the most loved language with more than 80% of developers that used it in 2023 also want to use it again in 2024. 
 
-This is confirmed by our findings with **85%** of the active professionnal developers answering in the same. Interestingly, aside from *JavaScript* which drops sharply in the ranking,  the distribution of the languages that the Rust users want to work in 2024 is similar to the distribution of the Rust admirers who plan to start working in Rust in 2024.       
+This is confirmed by our findings with **85%** of the active professionnal developers answering in the same way. Interestingly, aside from *JavaScript* which drops sharply in the ranking,  the distribution of the languages that the Rust users want to work in 2024 is similar to the distribution of the Rust admirers who plan to start working in Rust in 2024.       
 
 <p align="center">
   <img src="./images/What_languages_do_Rust_users_want_to_code_in_2024.png" />

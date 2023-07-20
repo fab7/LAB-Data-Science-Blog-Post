@@ -28,62 +28,90 @@ With respect to the Rust language, you will learn that:
 - the relatively good [**pay rating**](https://survey.stackoverflow.co/2023/#section-top-paying-technologies-top-paying-technologies) of Rust among other languages.
 - and a nice [**mapping**](https://survey.stackoverflow.co/2023/#section-worked-with-vs-want-to-work-with-programming-scripting-and-markup-languages) of the languages that users are interested in versus the ones they are already using. 
 
-## Q1 - What are the job types of the Rust users?
-The Stack Overflow survey collects responses from people belonging to various branches such as, developer by profession, occasional coder, learner, hobbyist, and so on.
+## Refining the statistical population of Rust users
 
-![Alt text](./images/The_different_Developer_Branches_of_the_Survey.jpg)<p align="center">
+In this study, we were specifically interrested by the status of the professional community of Rust users. We therefore restricted the statistical population to **active professional developers**, thus excluding publics such as full-time students, hobbyists, learners and retirees. This leads to the following population being considered:
+
+<p align="center">
+  <img src="./images/Active_professional_developers.png" />
+</p>
  
-However, for this study, we are only interrested in the the group of **professional developers** and we refine the statistical population to .
+We further defined the following three groups of users to focus on:
+- a Rust **user** is a respondent who has done extensive development work in Rust over the past year.
+- a Rust **admirer** is a respondent who wants to work in Rust over the next year.
+- a Rust **lover** is a Rust user who wants to continue working in Rust over the next year.
 
-will solely focus on the population of 'developers by profession' who are 67237 and represent 75.4% of the respondents.
+In summary, our investigation will cover a population of **7,045 Rust users**  and **18,410 Rust admirers** who respectively represent **7.9%** and **20.6%** of the  respondents to the initial survey. 
 
+Finnaly, they are **5,984 Rust lovers**  among the Rust users, and they represents **84.9%** of the Rust users.
 
+## Q1 - What are the job types of the Rust users?
 
+As a first step, it may be interesting to compare your own profile with that of common Rust developers in the industry.
 
+If you are for example heavily involved in hardware development, the opportunities of leveraging Rust might be less important than in the server back-end development.
 
+<p align="center"> 
+    <img src="./images/What_are_the_job_types_of_the_Rust_lovers.png" />
+</p>
 
-At the beginning of my investigation, I was left with the impression that Rust was primarily in high performance operating-, embedded- or distributed- systems.
+As you can read from the bar chart, the language is going to offer you much opportunities in the fields of full-stack and back-end types of developments which stand out with more than **57.5%** of the Rust lovers already doing extensive work in those areas. Rust is also particularly suitable for embedded systems which naturraly shows up in third position (**5.9%**), ahead of front-end (**2.8%**) and before research, cloud infrastucture and gaming.
 
+### Q2 - What are the best Rust paying jobs?
 
+Second, you might want to consider the salary  early in your investigation process as the more crowded the field, the lower the salary usually is.
 
+<p align="center">
+  <img src="./images/What_are_the_best_paying_Rust_types_of_jobs.png" />
+</p>
 
+The median salary of the Rust lovers is **$88,000** and the best paying jobs are in the areas of  technical evangelists, cloud infrastructure engineers as well as the usual managerial positions. 
 
-Q4 -
+### Q3 - What languages do Rust admirers develop in 2023?
 
-Rust is on its seventh year as the most loved language with 87% of developers saying they want to continue using it.
+With the first question, we were suggesting to try and position your profile against the distribution of job types that are already using Rust in production.
 
+However, another good indicator could be to compare the languages that your like against the languages mastered by the other Rust admirers out there. You might well be riding the same wave.      
 
+<p align="center">
+  <img src="./images/What_languages_do_Rust_admirers_develop_in_2023.png" />
+</p>
 
+We didn't expect the network above to be so crowded. We decided to keep it as is to graphically represent the attraction this language has among developers currently working in over 30 different languages.
 
+The first third (**29.1%**) of the **admirers** who want to work in Rust over the next year, are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%**) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
 
+<p align="center">
+  <img src="./images/What_languages_do_Rust_admirers_develop_most_in_2023.png" />
+</p>
 
+### Q4 -  What languages do the Rust users want to code in 2024?
 
+According to *Stack Overflow*, Rust is on its eigth year as the most loved language with more than 80% of developers saying they want to continue using it. With such popularity, one may wonder if there exists a life after Rust, and if so, which one?
 
+<p align="center">
+  <img src="./images/What_languages_do_Rust_users_want_to_code_in_2024.png" />
+</p>
 
+Surpisingly, the network showing what next languages the Rust lovers want to work with, is also extremey dense. This may indicate that the formulation of the question was too broad and that many respondents miss-interpreted it.   
 
+Otherwise, the popularity of Rust is definitively confirmed by our findings and with **85%** of the active professionnal developers answering in the same way. Interestingly, aside from *JavaScript* which drops sharply in the ranking,
 
+<p align="center">
+  <img src="./images/What_languages_do_Rust_users_want_to_code_most_in_2024.png" />
+</p>
 
+## Key Takeaways
 
+In this article, we took a closer look at the Stack Overflow 2023 survey data and we specifically polled responses from the respondents who are users of the Rust language, as well as the ones who plan to work in it in 2024. The intent was to give the reader a few more arguments why he should or should not learn Rust in 2023. 
 
+The data suggest that:
 
+  - More than **50%** of the Rust users evolve in full-stack and back-end development types of jobs.
+    
+  - In 2023, the median salary of a Rust user is **$88.000**. 
+    
+  - There is a strong trend among users of interpreted languages who want to upgrade to Rust. This is probably due to its memory safety enforcement and its high performance guarantees.
 
+  - Developers who have engaged with Rust are  85% satisfied and don't plan to change language in 2024. This seems to explain why Rust has been at the top of the most loved languages for almost 8 years.   
 
-
----------------
----------------
-
-```
-Therefore, this 5 minute blog might be for you as it attempts to provide insights about the users of Rust language in a visual way through charts and diagrams. 
-
-If, like me, you want to learn more about Rust users, this 5 minute blog might be for you as it attempts to provide information about them visually through charts and diagrams.
-
-```
-
-
-
-
-
-
-
-
-  
