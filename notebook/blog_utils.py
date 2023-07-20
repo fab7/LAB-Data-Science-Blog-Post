@@ -119,6 +119,9 @@ def barh_chart(sr, fig_title, color, fig_save=False):
         for i, value in enumerate(df['count']):
             ax.text(value, i, f' {df["Percentage"][i]:.1f}%', ha='left', va='center')
         
+    if fig_save:
+        plt.savefig('./images/' + fig_title.replace(" ", "_") +'.jpg')
+        
 help(barh_chart)
 
 

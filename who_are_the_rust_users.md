@@ -42,6 +42,15 @@ will solely focus on the population of 'developers by profession' who are 67237 
 
 
 
+At the beginning of my investigation, I was left with the impression that Rust was primarily in high performance operating-, embedded- or distributed- systems.
+
+
+
+
+
+Q4 -
+
+Rust is on its seventh year as the most loved language with 87% of developers saying they want to continue using it.
 
 
 
@@ -60,7 +69,8 @@ will solely focus on the population of 'developers by profession' who are 67237 
 
 
 
-
+---------------
+---------------
 
 ```
 Therefore, this 5 minute blog might be for you as it attempts to provide insights about the users of Rust language in a visual way through charts and diagrams. 
@@ -69,8 +79,7 @@ If, like me, you want to learn more about Rust users, this 5 minute blog might b
 
 ```
 
----------------
----------------
+
 
 
 

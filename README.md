@@ -1,4 +1,4 @@
-# Who Are The Rust Users?
+# Who Are The Rust Users in 2023?
 
 <p align="center">
   <img src="images/Rust_Blog_Header_Image.png" width="768" height="506"/>
@@ -10,9 +10,9 @@ I wanted to know more about this emerging language but I was under a heavy agend
 
 I was also enrolled in an inter-skills course in data engineering and data science, and this is what was keeping me so busy. However, by a happy coincidence, the first introduction project requested the students to create a Jupyter notebook to practise data wrangling and data modeling. The choice of  the dataset was free but the results had to be shared via a blog post.
 
-Bingo, I had just found a way to kill two birds at once and decided to use the data from [Stackoverflow’s 2023 Annual Survey](https://survey.stackoverflow.co/2023/) to learn more about this language.
+Bingo, I had just found a way to kill two birds at once and decided to use the data from [*Stackoverflow’s 2023 Annual Survey*](https://survey.stackoverflow.co/2023/) to learn more about this language.
 
-In summary, the four questions I decided to probe within the dataset are:
+In summary, I decided to probe the following four questions within the dataset are:
 - *What are the job types of the Rust users?*
 - *What are the best Rust paying jobs?*
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
@@ -57,11 +57,20 @@ $ source .venv/bin/activate
 ```
 
 ### Install the required Python packages
-#### Info/Warning: Make sure you are in your virtual envirnonment!
+#### Info/Warning: Make sure you are in your virtual environment!
 
 ```bash
 (.venv)$ pip install -r requirements.txt
 ```
+
+### Start the Jupyter Notebook
+
+```bash
+(.venv)$ jupyter notebook
+```
+
+Open the `who_are_the_rust_users.ipynb` and step through the cells.
+
 
 ## Files and Directories
 
@@ -88,26 +97,55 @@ Contains the the Python notebook.
 
 ## Questions and Findings
 
-### Q1
+### Foreword
+Because we were specifically interrested by the status of the professional community of Rust users, we restricted the statistical population of the study to **active professionnal developers** , thus excluding publics such as students, hobbyists, learners and retirees.
 
-### Q2
+We further defined the following three groups of users:
+- a Rust **user** is a respondent who has done extensive development work in Rust over the past year.
+- a Rust **admirer** is a respondent who wants to work in Rust over the next year.
+- a Rust **lover** is a respondent who is both a Rust **lover** and a Rust **admirer**. 
 
-### Q3
+### Q1 - What are the job types of the Rust lovers?
+  
+Rust is often referred to as a systems programming language which is particularly suitable to develop high performance operating-, embedded- and distributed- systems.
 
+This seems to be confirmed by the distribution of the job types among the Rust lovers. The full-stack and back-end types of jobs stand out with more than 57.5% of the Rust lovers doing extensive work in those areas. Embedded shows up in third position (5.9%) ahead of front-end (2.8%) and before areas such as research, cloud infrastucture and gaming.
 
+<p align="center">
+  <img src="./images/What_are_the_job_types_of_the_Rust_lovers.png" />
 
+### Q2 - What are the best Rust paying jobs?
 
+The median salary of the Rust lovers is **$88.015** and the best paying jobs are the areas of  technical evangelists, cloud infrastructure engineers as well as the usual managerial positions. 
 
+<p align="center">
+  <img src="./images/What_are_the_best_paying_Rust_types_of_jobs.png" />
+  
+### Q3 - What languages do Rust admirers develop in 2023?
 
-```
-- LAB-Data-Science-Blog-Post
+The first third (**29.1%**) of the **admirers** who want to work in Rust over the next year, are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%**) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
 
-- A Jupyter notebook to practise data wrangling and data modeling for the purpose of writing a blog post
+<p align="center">
+  <img src="./images/What_languages_do_Rust_admirers_develop_in_2023.png" />
+</p>
 
-- Visual learners, it is claimed, learn best via pictures, videos and diagrams.
+<p align="center">
+  <img src="./images/What_languages_do_Rust_admirers_develop_most_in_2023.png" />
+</p>
 
-- However, if you like to gain a quick insight from pictures and diagrams (or short videos). 
-```
+### Q4 - What languages do Rust users want to develop in 2024?
+
+One of the results of the *Stack Overflow* survey already showed that Rust was the most loved language with more than 80% of developers that used it in 2023 also want to use it again in 2024. 
+
+This is confirmed by our findings with **85%** of the active professionnal developers answering in the same. Interestingly, aside from *JavaScript* which drops sharply in the ranking,  the distribution of the languages that the Rust users want to work in 2024 is similar to the distribution of the Rust admirers who plan to start working in Rust in 2024.       
+
+<p align="center">
+  <img src="./images/What_languages_do_Rust_users_want_to_code_in_2024.png" />
+</p>
+
+<p align="center">
+  <img src="./images/What_languages_do_Rust_users_want_to_code_most_in_2024.png" />
+</p>
 
 
 
