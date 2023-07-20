@@ -4,7 +4,7 @@
 
 I was recently sharing my passion for building and programming systems with a colleague. During that exchange, he strongly recommended that I learn the **Rust** language in the near future  and get involved in its ecosystem.
 
-Because I was under a heavy agenda, I did not have time to research the web and sort through the many videos, tutorials, articles and blogs such as: _[Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek)_, _[What's so good about Rust?](https://developer.ibm.com/articles/os-developers-know-rust/)_, _[What is it used fort?](https://yalantis.com/blog/rust-market-overview/)_, _[Why should I learn it in 2023?](https://www.i2tutorials.com/five-reasons-why-you-should-learn-rust-in-2023/)_.
+Because I was under a heavy agenda, I did not have time to research the web and sort through the many videos, tutorials, articles and blogs such as: _[Rust in 100 Seconds](https://www.youtube.com/watch?v=5C_HPTJg5ek)_, _[What's so good about Rust?](https://developer.ibm.com/articles/os-developers-know-rust/)_, _[What is it used for?](https://yalantis.com/blog/rust-market-overview/)_, _[Why should I learn it in 2023?](https://www.i2tutorials.com/five-reasons-why-you-should-learn-rust-in-2023/)_.
 
 At least, I wanted to understand who the Rust users were and what kind of development they were doing. The idea was to draw a parallel with my profile before delving deeper. 
 
@@ -30,7 +30,7 @@ With respect to the Rust language, you will learn that:
 
 ## Refining the statistical population of Rust users
 
-In this study, we were specifically interrested by the status of the professional community of Rust users. We therefore restricted the statistical population to **active professional developers**, thus excluding publics such as full-time students, hobbyists, learners and retirees. This leads to the following population being considered:
+In this study, we were specifically interrested by the status of the professional community of Rust users. We therefore restricted the statistical population to **active professional developers**, thus excluding publics such as full-time students, hobbyists, learners and retirees. This led to the following population being considered:
 
 <p align="center">
   <img src="./images/Active_professional_developers.png" />
@@ -55,7 +55,7 @@ If you are for example heavily involved in hardware development, the opportuniti
     <img src="./images/What_are_the_job_types_of_the_Rust_lovers.png" />
 </p>
 
-As you can read from the bar chart, the language is going to offer you much opportunities in the fields of full-stack and back-end types of developments which stand out with more than **57.5%** of the Rust lovers already doing extensive work in those areas. Rust is also particularly suitable for embedded systems which naturraly shows up in third position (**5.9%**), ahead of front-end (**2.8%**) and before research, cloud infrastucture and gaming.
+As you can read from the bar chart, the language is going to offer you much more opportunities in the fields of full-stack and back-end types of developments, which stand out with more than **57.5%** of the Rust lovers already doing extensive work in those areas. Rust is also particularly suitable for embedded systems which naturally shows up in third position (**5.9%**), ahead of front-end (**2.8%**) and before research, cloud infrastucture and gaming.
 
 ### Q2 - What are the best Rust paying jobs?
 
@@ -71,15 +71,15 @@ The median salary of the Rust lovers is **$88,000** and the best paying jobs are
 
 With the first question, we were suggesting to try and position your profile against the distribution of job types that are already using Rust in production.
 
-However, another good indicator could be to compare the languages that your like against the languages mastered by the other Rust admirers out there. You might well be riding the same wave.      
+However, another good indicator could be to compare the languages that your like against the languages mastered by other Rust admirers out there. You might well be riding the same wave.      
 
 <p align="center">
   <img src="./images/What_languages_do_Rust_admirers_develop_in_2023.png" />
 </p>
 
-We didn't expect the network above to be so crowded. We decided to keep it as is to graphically represent the attraction this language has among developers currently working in over 30 different languages.
+I did not expect the network above to be so crowded. I nevertheless decided to keep it as is to graphically represent the attraction this language has among developers currently working in over 30 different languages.
 
-The first third (**29.1%**) of the **admirers** who want to work in Rust over the next year, are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%**) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
+The first third (**29.1%**) of all admirer responses indicate that they are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%** of the responses) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
 
 <p align="center">
   <img src="./images/What_languages_do_Rust_admirers_develop_most_in_2023.png" />
@@ -93,9 +93,11 @@ According to *Stack Overflow*, Rust is on its eigth year as the most loved langu
   <img src="./images/What_languages_do_Rust_users_want_to_code_in_2024.png" />
 </p>
 
-Surpisingly, the network showing what next languages the Rust lovers want to work with, is also extremey dense. This may indicate that the formulation of the question was too broad and that many respondents miss-interpreted it.   
+Surpisingly, the network showing what next languages the Rust lovers want to work with, is also extremey dense. This may indicate that the formulation of the question was maybe too broad and that many respondents miss-interpreted it.
 
-Otherwise, the popularity of Rust is definitively confirmed by our findings and with **85%** of the active professionnal developers answering in the same way. Interestingly, aside from *JavaScript* which drops sharply in the ranking,
+Interestingly, aside from *JavaScript* which drops sharply in the ranking,  the distribution of the languages that the Rust users want to work in 2024 is similar to the distribution of the Rust admirers who plan to start working in Rust in 2024.       
+
+Otherwise, the popularity of Rust is definitively confirmed by our findings with **85%** of the active professionnal developers answering in the same way.
 
 <p align="center">
   <img src="./images/What_languages_do_Rust_users_want_to_code_most_in_2024.png" />

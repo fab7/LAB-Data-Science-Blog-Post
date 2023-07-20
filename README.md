@@ -127,7 +127,7 @@ The median salary of the Rust lovers is **$88.015** and the best paying jobs are
 
 ### Q3 - What languages do Rust admirers develop in 2023?
 
-The first third (**29.1%**) of the **admirers** who want to work in Rust over the next year, are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%**) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
+The first third (**29.1%**) of all admirer responses indicate that they are using high-level scripting languages such as *JavaScript*. *Python* and *TypeScript*. Then come the application and admin oriented languages such as *SQL*, *HTML/CSS* and *Bash* (**24.3%** of the responses) before another series of high-level compiled languages such as *Java*, *C#*, *C++* and *Go*.
 
 <p align="center">
   <img src="./images/What_languages_do_Rust_admirers_develop_in_2023.png" />
