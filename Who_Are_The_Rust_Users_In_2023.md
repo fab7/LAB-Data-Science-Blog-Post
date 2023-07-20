@@ -14,7 +14,7 @@ With that goal in mind, I used the *2023 Stack Overflow Annual Survey* dataset t
 - *What are the languages used in 2023 by the developers who plan to work with Rust in 2024?*
 - *In what other languages do the Rust users plan to work in 2024?*
 
-## What the Stack Overflow survey results already tells us about Rust
+## What the Stack Overflow survey results already tell us about Rust
 
 The Stack Overflow survey is conducted every year among tens of thousands of developers who share how they learn new and level up, 
 which tools they’re using, how much they earn and how they are looking ahead to the future.
