@@ -62,8 +62,9 @@ $ source .venv/bin/activate
 ```
 
 ### Install the required Python packages
-#### Info/Warning: Make sure you are in your virtual environment!
-
+|----------------------------------------------------------------------------------------------------|
+| :exclamation:Info/Warning:exclamation: Make sure you are in your virtual environment :exclamation: |
+|----------------------------------------------------------------------------------------------------|
 ```bash
 (.venv)$ pip install -r requirements.txt
 ```
